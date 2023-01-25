@@ -4,6 +4,7 @@ h4{
   color: blue;
   margin-top: 450px;
   text-align: center;
+  flex-wrap: wrap;
 }
 table, th, td {
   border: 1px solid black;
@@ -76,5 +77,6 @@ border-right: 10px solid blue;
 border-left: 10px solid yellow;
 border-top: 10px solid green;
 border-bottom: 10px solid orange;
+
 
 }

@@ -79,7 +79,7 @@ background-color: blue;
 body{
   background-image: url('smog.jpeg');
   background-repeat: no-repeat;
-  background-size: 40%;
+  background-size: 20%;
   background-position: center;
   padding-bottom: 250px;
 }
