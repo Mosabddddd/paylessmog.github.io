@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Payless Smog Shop - Your trusted smog check and vehicle registration services in Bakersfield, CA.">
     <title>Payless Smog Shop</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -13,13 +14,12 @@
             <nav>
                 <ul>
                     <li><a href="#services">Services</a></li>
-               
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div class="container content">
+    <main class="container content">
         <section id="contact-info">
             <h2>Contact Information</h2>
             <p><strong>Address:</strong> 3224 Niles St, Bakersfield, CA 93306</p>
@@ -49,25 +49,22 @@
             </ul>
         </section>
         
-        
-        
         <section id="contact">
             <h2>Contact Us</h2>
-            <form>
+            <form action="send_email.php" method="post">
                 <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" required aria-label="Your Name">
                 
                 <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+                <input type="email" id="email" name="email" required aria-label="Your Email">
                 
                 <label for="message">Message:</label>
-                <textarea id="message" name="message" required></textarea>
+                <textarea id="message" name="message" required aria-label="Your Message"></textarea>
                 
                 <button type="submit">Submit</button>
             </form>
         </section>
-    </div>
-    
+    </main>
     <footer>
         <div class="container">
             <p>&copy; 2024 Payless Smog Shop. All rights reserved.</p>
