@@ -1,39 +1,78 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href="smogstyle.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payless Smog Shop</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<header>
-    <nav class="navbar">
+<body>
+    <header>
+        <div class="container">
+            <h1>Payless Smog Shop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+               
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container content">
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Address:</strong> 3224 Niles St, Bakersfield, CA 93306</p>
+            <p><strong>Phone:</strong> (661) 871-2299</p>
+        </section>
         
-        <a href="#">Home</a>
-        <a href="smog2.html">Working Hours</a>
-        <a href="Smog3.HTML">Our Prices</a>
-        <a href="Smog4.html">Contact Information</a>
-    </nav>
-   
-   </header> 
-   <body>
-    <div id="smog">
-    <h1>Payless Smog Shop</h1>
-   <h2>Location</h2>
-    <p>3224 Niles Street, Bakersfield, California, CA 93306</p>
+        <section id="hours">
+            <h2>Hours</h2>
+            <table>
+                <tr><td>Monday:</td><td>9 AM–5:30 PM</td></tr>
+                <tr><td>Tuesday:</td><td>9 AM–5:30 PM</td></tr>
+                <tr><td>Wednesday:</td><td>9 AM–5:30 PM</td></tr>
+                <tr><td>Thursday:</td><td>9 AM–5:30 PM</td></tr>
+                <tr><td>Friday:</td><td>9 AM–5:30 PM</td></tr>
+                <tr><td>Saturday:</td><td>9 AM–2:30 PM</td></tr>
+                <tr><td>Sunday:</td><td>Closed</td></tr>
+            </table>
+        </section>
+        
+        <section id="services">
+            <h2>Services</h2>
+            <ul>
+                <li>Smog Check</li>
+                <li>Vehicle Registration</li>
+                <li>Emissions Testing</li>
+                <li>Diagnostic Services</li>
+            </ul>
+        </section>
+        
+        
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </div>
-
-<!--<h3>Our Prices</h3>
-<p>$40 Orignal price</p>
-<p>10 percent discount with our smog check coupon </p>-->
-<!--<div class="introduction">
-    <h4>Working Hours</h4>
-<p>Monday-Friday: 9:00AM-5:30PM</p>
-<p2>Saturday: 9:00AM-2:30PM </p2>
-<p3>Sunday: Closed </p3>
-</div-->
-
-
-<!--<h5>Contact Information</h5>
-<p>PhoneNumber: 661-871-2299</p>
-<p2> Personal PhoneNumber: 661-578-2509</p2>
-<h6>Background Information</h6>-->
-</body> 
+    
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Payless Smog Shop. All rights reserved.</p>
+            <p><a href="#contact-info">Contact Information</a> | <a href="#hours">Hours</a> | <a href="#services">Services</a></p>
+        </div>
+    </footer>
+</body>
 </html>
